@@ -62,7 +62,7 @@
  */
 
 #include <ctype.h>
-#include <stdlib.h>
+#include <stdint.h>
 #include <string.h>
 
 int only_digits(const char *s)

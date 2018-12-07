@@ -24,6 +24,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 // https://www.gnu.org/software/libunistring/
 // https://www.gnu.org/software/libunistring/manual/html_node/Normalization-of-strings.html
 // #include <uninorm.h>

@@ -20,6 +20,7 @@
 
 #include <string.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include "hex.h"
 
 const unsigned char hexits[16] = {

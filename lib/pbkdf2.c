@@ -23,6 +23,7 @@
  */
 
 #include <stdlib.h>
+#include <stdint.h>
 #include "hmac_sha2.h"
 #include "util.h"
 #include "scrypt_lib.h"
