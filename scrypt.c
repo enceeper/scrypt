@@ -1,7 +1,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// The full scrypt implementation with OpenSSL providing the PBKDF2 functionality.
+// The full scrypt implementation
 //
 // Copyright (C) 2018 Vassilis Poursalidis (poursal@gmail.com)
 //
