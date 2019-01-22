@@ -13,8 +13,18 @@ Current scrypt implementations utilize PBKDF2-HMAC-SHA256 (as they should!). The
 
 ## Building
 
+First install make and gcc:
+
 ```bash
-    make
+sudo apt install make gcc
+```
+
+Then clone the repository and execute make:
+
+```bash
+git clone https://github.com/enceeper/scrypt
+cd scrypt
+make
 ```
 
 ## Usage
@@ -22,7 +32,7 @@ Current scrypt implementations utilize PBKDF2-HMAC-SHA256 (as they should!). The
 For simplicity the parameters **p** and **r** are hardcoded in the software to 1 and 8 respectively. Only N can be set from the command line. The first parameter is the HEX encoded salt and the second parameter is the HEX encoded password. Please make sure that you normalize the password (using NFKD form) in order to produce consistent results.
 
 ```bash
-    scrypt 4751535a1c65ef8c 662336d127d8ff74 32768
+scrypt 4751535a1c65ef8c 662336d127d8ff74 32768
 ```
 
 ## Copyright and license
